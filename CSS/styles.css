@@ -297,23 +297,58 @@ footer{
 @media screen and (max-width: 480px) {
   .welcome-text h2 {
     font-size: 24px;
+    -ms-high-contrast-adjust: auto;
+  }
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
   }
 }
 @media screen and (max-width: 360px) {
   .welcome-text h2 {
     font-size: 22px;
+    -ms-high-contrast-adjust: auto;
   }
 }
 @media screen and (max-width: 320px) {
   .welcome-text h2 {
     font-size: 20px;
+    -ms-high-contrast-adjust: auto;
   }
 }
 @media screen and (max-width: 280px) {
   .welcome-text h2 {
     font-size: 18px;
+    -ms-high-contrast-adjust: auto;
+
   }
 }
 em {
   font-style: italic;
+}
+@media screen and (max-width: 768px) {
+  .welcome-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+  }
+}
+@media screen {
+  .get-in-touch h3 {
+    font-size: 24px;
+    -ms-high-contrast-adjust: auto;
+  }
+  
+}
+get-in-touch p {
+  font-size: 16px;
+  line-height: 1.5;
+  -ms-high-contrast-adjust: auto;
+  color:red;
+}
+
+hover effect for links in the welcome section{
+  color: #4B0082;
+  text-decoration: underline;
+
 }
